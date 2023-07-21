@@ -1,4 +1,4 @@
- import os
+import os
 
 class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6317945060:AAE8VqjA0HGWu23EtN4OBmGuPjMb7ttHZYI") # Make a bot from https://t.me/BotFather and enter the token here
