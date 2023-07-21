@@ -4,10 +4,10 @@ class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6317945060:AAE8VqjA0HGWu23EtN4OBmGuPjMb7ttHZYI") # Make a bot from https://t.me/BotFather and enter the token here
     #If deploying on vps edit the above value as example := TG_BOT_TOKEN = "Your-bot-token-inside-inverted-commas."
     
-    APP_ID = int(os.environ.get("APP_ID", 12345)) # Get this value from https://my.telegram.org/apps
+    APP_ID = int(os.environ.get("APP_ID", 28853667)) # Get this value from https://my.telegram.org/apps
     #If deploying on vps edit the above value as example := APP_ID = Your-APP_ID-without-inverted-commas
     
-    API_HASH = os.environ.get("API_HASH", "") # Get this value from https://my.telegram.org/apps
+    API_HASH = os.environ.get("API_HASH", "e20d060e00bb0b1f9645573e4f95207e") # Get this value from https://my.telegram.org/apps
     #If deploying on vps edit the above value as example := API_HASH = "Your-API_HASH-inside-inverted-commas."
     
     Mega_email = os.environ.get("Mega_email", "None") # This is not necessary! Enter your mega email only if you have a mega.nz account with pro/business features.
