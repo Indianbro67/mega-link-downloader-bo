@@ -1,7 +1,7 @@
 import os
 
 class Config(object):
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") # Make a bot from https://t.me/BotFather and enter the token here
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6317945060:AAE8VqjA0HGWu23EtN4OBmGuPjMb7ttHZYI") # Make a bot from https://t.me/BotFather and enter the token here
     #If deploying on vps edit the above value as example := TG_BOT_TOKEN = "Your-bot-token-inside-inverted-commas."
     
     APP_ID = int(os.environ.get("APP_ID", 12345)) # Get this value from https://my.telegram.org/apps
@@ -16,10 +16,10 @@ class Config(object):
     Mega_password = os.environ.get("Mega_password", "None") # This is not necessary! Enter your mega password only if you have a mega.nz account with pro/business features.
     #If deploying on vps edit the above value as example := Mega_password = "Your-Mega_password-inside-inverted-commas."
     
-    Bot_username = os.environ.get("Bot_username", "") # Your bot's telegram username (must enter with '@' in the front of the username)
+    Bot_username = os.environ.get("Bot_username", "@Save_Destructive_Media_Bot") # Your bot's telegram username (must enter with '@' in the front of the username)
     #If deploying on vps edit the above value as example := Bot_username = "Your-Bot_username-inside-inverted-commas."
     
-    OWNER_ID = os.environ.get("OWNER_ID", None) # Your(owner's) telegram id
+    OWNER_ID = os.environ.get("OWNER_ID", 5841005593) # Your(owner's) telegram id
     #If deploying on vps edit the above value as example := OWNER_ID = Your-telegram id-without-inverted-commas
     
     REDIS_URI = os.environ.get("REDIS_URI", None) # Get This Value from http://redislabs.com/try-free (If you don't know how to obtain the a video tutorial is available here:- https://t.me/botzupdate/5)
